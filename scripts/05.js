@@ -63,8 +63,12 @@ killerRabbit.speak("SKREE!");
 function Rabbit(type){
   this.type = type;
 }
+//to add property to object
 Rabbit.prototype.speak = speak;
 
 var blackRabbit = new Rabbit("black"); //is an object type
 console.log(typeof(blackRabbit));
 blackRabbit.speak("hi");
+
+//Override 
+
